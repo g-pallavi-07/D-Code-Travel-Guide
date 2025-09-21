@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 2fr ;
     align-items: center;
     padding: 20px;
+    border: solid 2px #e0e1dd;
 }
 .delhi-photo img {
     width: 100%;
@@ -14,6 +15,7 @@
 .title-grid{
     display: grid;
     grid-template-rows: 3fr 1fr;
+    padding-right: 20px;
 }
 .delhi-title h1{
     font-size: 7em;
@@ -26,4 +28,52 @@
     font-size: 16px;
     color: #e0e1dd;
     text-align: right;
+}
+.about-delhi{
+    display:grid;
+    grid-template-columns: 2fr 1fr ;
+    align-items: center;
+    padding: 20px;
+    border: solid 2px #e0e1dd;
+    margin-top: 20px;
+}
+.about-text{
+    border: solid 2px #e0e1dd;
+    padding: 10px;
+    margin: 20px;
+}
+.about-text p{
+    font-size: 16px;
+    color: #e0e1dd;
+    text-align: center;
+    font-family: 'ultra', sans-serif;
+}
+.about-text h2{
+    font-size: 30px;
+    color: #e0e1dd;
+    text-align: center;
+    font-family: 'limelight', cursive;
+
+}
+.next-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.next-button button{
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    border: 2px solid #e0e1dd;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.arrow{
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
 }

@@ -1,0 +1,42 @@
+.attractions-heading h1{
+    font-size: 50px;
+    color: #e0e1dd;
+    text-align: center;
+    font-family: 'limelight', cursive;
+    text-align: center;
+    border-bottom: solid 1px #e0e1dd;
+    padding-bottom: 20px;
+}
+.attractions-inner-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-items: center;
+    border-bottom: solid 1px #e0e1dd;
+    padding: 20px;
+}
+.attractions-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+    border-radius: 80px;
+}
+.attractions-description{
+    border: solid 2px #e0e1dd;
+    padding: 10px;
+    margin: 20px;
+}
+.attractions-description h2{
+    font-size: 30px;
+    color: #e0e1dd;
+    text-align: center;
+    font-family: 'limelight', cursive;
+
+}
+.attractions-description p{
+    font-size: 16px;
+    color: #e0e1dd;
+    text-align: center;
+    font-family: 'ultra', sans-serif;
+}
