@@ -90,19 +90,21 @@
   font-weight: 500;
   transition: all 0.3s ease;
   background-color: #1d1d1d;
+  cursor: pointer;
 }
 .explore-button a{
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
 }
-.explore-button a:hover{
-    color: #1d1d1d;
-    text-decoration: none;
-}
 
 .explore-button:hover {
   background: white;
+  color: #1d1d1d;
+}
+.explore-button:hover > a{
+    color: #1d1d1d;
+    text-decoration: none;
 }
 .more-button{
     padding-top: 20px;
