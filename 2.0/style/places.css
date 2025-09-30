@@ -1,0 +1,87 @@
+/*Title section*/
+
+.title-image {
+  height: 100vh;
+  background-image: url('../images/red-fort.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  color: white;
+  position: relative;
+}
+
+.title-image::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35); 
+  z-index: 0;
+}
+
+.title-content {
+  position: relative;
+  max-width: 700px;
+  z-index: 1;
+}
+
+.subheading {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+}
+
+.second-sub-heading {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+.humayun-tomb-location{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 5%;
+    right: 5%;
+    left: 90%;
+    opacity: 0.7;
+    color: white; 
+}
+.humayun-tomb-location p{
+    font-size: 0.7rem;
+    font-weight: 300;
+    font-family: 'noto Serif', serif;
+}
+.loacation-icon{
+    height: 10px;
+    width: 20px;
+    color: white;
+}
+
+/*Sections for attractions*/
+
+
+.attractions-grid-red-fort{
+  height: 100vh;
+  background-image: url('../images/red-fort.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  color: white;
+  position: relative;
+}
