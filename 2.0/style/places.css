@@ -2,7 +2,7 @@
 
 .title-image {
   height: 100vh;
-  background-image: url('../images/red-fort.jpeg'); 
+  background-image: url('../images/must-visit-title.avif'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,19 +69,55 @@
     color: white;
 }
 
-/*Sections for attractions*/
-
-
-.attractions-grid-red-fort{
+/*Places Section*/
+.attractions-grid{
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.inner-atrractions-grid{
   height: 100vh;
-  background-image: url('../images/red-fort.jpeg'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
-  align-items: center;
-  padding-left: 8%;
-  padding-right: 8%;
-  color: white;
-  position: relative;
+  flex-direction: row;
+}
+.attractions-description{
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  color: #1d1d1d; 
+  background-color: #ebe9c3;
+  text-align: left;
+}
+
+.attractions-description h2{
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+.attractions-description p{
+  font-family: 'Manrope', serif;
+  color: rgb(110, 109, 109);
+}
+
+.connaught-place-photo,.chandni-chowk-photo,.india-gate-photo,.sarojini-nagar-photo,.red-fort-photo{
+  flex: 2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.red-fort-photo{
+    background-image: url('../images/red-fort.jpeg');
+}
+.sarojini-nagar-photo{
+    background-image: url('../images/sarojini-nagar.jpg');
+}
+.connaught-place-photo{
+    background-image: url('../images/connaught-place.jpg');
+}
+.india-gate-photo{
+    background-image: url('../images/india-gate.jpg');
+}
+.chandni-chowk-photo{
+    background-image: url('../images/chandini-chowk.jpg');
 }
