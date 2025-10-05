@@ -15,9 +15,10 @@
     <nav class="nav">
         <ul class ="nav-list">
             <li><a href="index.html">HOME</a></li>
-            <li><a href="#home">TOP ATTRACTIONS</a></li>
-            <li><a href="#home">SHOPPING</a></li>
-            <li><a href="#home">FOOD & DINING</a></li>
+            <li><a href="index.html" data-filter="all">ALL ATTRACTIONS</a></li>
+            <li><a href="#home" data-filter="monuments">MONUMENTS</a></li>
+            <li><a href="#home" data-filter="shopping">SHOPPING</a></li>
+            <li><a href="#home" data-filter="food">FOOD & DINING</a></li>
         </ul>
     </nav>
     <main>
@@ -34,35 +35,35 @@
         </section>
         <section class="attractions-grid">
             
-            <section id="red-fort" class="inner-atrractions-grid">
+            <section id="red-fort" class="inner-atrractions-grid" data-category="monuments">
                 <div class="red-fort-photo"></div>
                 <div class="attractions-description">
                     <h2>Red Fort</h2>
                     <p>The Red Fort, also known as Lal Qila, is a historic fortification in Delhi that served as the main residence of the Mughal emperors for nearly 200 years. Built in the mid-17th century by Emperor Shah Jahan, the fort is an architectural masterpiece made of red sandstone and marble. It features intricate carvings, beautiful gardens, and impressive gates. The Red Fort is a UNESCO World Heritage Site and a symbol of India's rich history and culture. It is also the site where the Prime Minister of India hoists the national flag on Independence Day each year.</p>
                 </div>
             </section>
-            <section id="sarojini-nagar" class="inner-atrractions-grid">
+            <section id="sarojini-nagar" class="inner-atrractions-grid" data-category="shopping">
                 <div class="attractions-description">
                     <h2>Sarojini Nagar</h2>
                     <p>Sarojini Nagar Market is a renowned and bustling shopping destination in South Delhi, famous for its incredibly affordable and trendy clothing, accessories, footwear, and home decor items, including export surplus goods. It is a popular spot for bargain hunters and college students, offering a wide variety of fashionable merchandise at bargain prices. </p>
                 </div>
                 <div class="sarojini-nagar-photo"></div>
             </section>
-            <section id="india-gate" class="inner-atrractions-grid">
+            <section id="india-gate" class="inner-atrractions-grid" data-category="monuments">
                 <div class="india-gate-photo"></div>                
                 <div class="attractions-description">
                     <h2>India Gate</h2>
                     <p>India Gate is famous as a prominent war memorial honoring Indian soldiers who died in World War I and other conflicts, and as a popular public gathering space and landmark in New Delhi, featuring a grand arch, beautiful lawns, and the symbolic Amar Jawan Jyoti flame. Designed by Edwin Lutyens, the 42-meter-high structure serves as a symbol of national pride and a popular destination for picnics and family outings. </p>
                 </div>
             </section>
-            <section id="chandini-chowk" class="inner-atrractions-grid">
+            <section id="chandini-chowk" class="inner-atrractions-grid" data-category="shopping food">
                 <div class="attractions-description">
                     <h2>Chandni Chowk</h2>
                     <p>Chandni Chowk is a historic and busy marketplace in Old Delhi, India, renowned for its narrow lanes, diverse goods, and street food. Built in the 17th century by Mughal Emperor Shah Jahan, it spans from the Red Fort to the Fatehpuri Masjid and is famous for wholesale and retail shopping of items like spices, jewelry, fabrics, and traditional Indian sweets. It's a lively, often chaotic, destination for shoppers and foodies, where visitors can experience the vibrant energy of traditional Indian markets.</p>
                 </div>
                 <div class="chandni-chowk-photo"></div>
             </section>
-            <section id="connaught-place" class="inner-atrractions-grid">
+            <section id="connaught-place" class="inner-atrractions-grid" data-category="shopping food">
                 <div class="connaught-place-photo"></div>
                 <div class="attractions-description">
                     <h2>Connaught Place</h2>
@@ -71,5 +72,6 @@
             </section>
         </section>
     </main>
+    <script src="javascript/filter.js"></script>
 </body>
 </html>
