@@ -58,6 +58,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
 }
 
 .introduction-text {
@@ -104,4 +107,12 @@
 .explore-button:hover > a{
     color: #1d1d1d;
     text-decoration: none;
+}
+
+@media (max-width: 800px){
+  .introduction{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
 }
