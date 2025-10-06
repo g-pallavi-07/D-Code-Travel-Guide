@@ -16,6 +16,7 @@
     flex-direction: row;
     margin: 0;
     flex-wrap: wrap;
+    width: 100%;
 }
 .nav-list a{
     text-decoration: none;
