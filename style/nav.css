@@ -21,7 +21,7 @@
     text-decoration: none;
     color: white;
     font-family:'Manrope', sans-serif;
-    font-size: 0.75rem;
+    font-size: 1.7266vh;
 }
 .nav-list a:hover{
     color: #FFFFFF;
@@ -30,5 +30,5 @@
     transition: all 0.3s ease-in-out;
 }
 .nav-list li{
-    padding: 20px;
+    padding: 2.877vh;
 }
